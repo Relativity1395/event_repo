@@ -1,0 +1,3 @@
+[submodule "external/libcaer"]
+	path = external/libcaer
+	url = https://gitlab.com/inivation/dv/libcaer.git
