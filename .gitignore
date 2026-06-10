@@ -1,0 +1,7 @@
+build/
+*.o
+*.elf
+*.bit
+*.hwh
+__pycache__/
+*.pyc
