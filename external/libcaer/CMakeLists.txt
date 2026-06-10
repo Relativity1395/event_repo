@@ -7,6 +7,7 @@ PROJECT(libcaer VERSION 3.3.17 LANGUAGES C CXX)
 # Basic setup, useful variables, see docs.
 SET(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmakemod ${CMAKE_MODULE_PATH})
 SET(ENABLE_ALL_WARNINGS ON CACHE BOOL "Turn on all warnings for build" FORCE)
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmakemod")
 INCLUDE(inivation-setup)
 
 # Legacy cmake support.
